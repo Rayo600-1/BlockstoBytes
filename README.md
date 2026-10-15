@@ -5,7 +5,21 @@ This Tool makes blocks of nintendo to bytes
 
 ### Requirements
 
-- Windows 10 or later
+### Operating System Compatibility
+
+| Operating System | Python Version | Notes |
+|---|---|---|
+| Windows 11 / 10 | Python 3.10+ | Recommended for current builds |
+| Windows 8.1 | Python 3.12 or older | Requires compatible dependency versions |
+| Windows 7 | Python 3.8 | Requires older compatible dependency versions |
+
+**Important:**
+- The latest versions of Python and build tools may not support older Windows versions.
+- For Windows 7 and Windows 8.1, use compatible versions of Pillow, Nuitka or PyInstaller.
+- Successful compilation does not automatically guarantee that the generated executable will run on every Windows version.
+- Windows 7 and Windows 8.1 are no longer supported by Microsoft.
+
+#You need to compile or use the py
 - Python 3.10 or newer
 - Tkinter with Tcl/Tk support
 - Pillow
